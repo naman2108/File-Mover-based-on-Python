@@ -1,6 +1,6 @@
 
 import os
-# from tkinter import messagebox
+
 def createIfNotExist(folder):
     if not os.path.exists(folder):
         os.makedirs(folder)
@@ -39,4 +39,4 @@ if __name__ == "__main__":
     move("Docs", docs)
     move("Media", medias)
     move("Others", others)
-# messagebox('Progress Complete')   
+  
